@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@1,9..144,500;1,9..144,700&family=Montserrat:wght@500&family=Outfit&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    width: 1440px;
+    display: flex;
+    align-items: center;
+    background-color: hsl(30, 38%, 92%);
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.container {
+    width: 50%;
+    height: 68%;
+    display: grid;
+    background-color: white;
+    margin: auto;
+    grid-template-areas:
+        "img img img text text"
+        "img img img text text"
+        "img img img text text"
+        "img img img text text";
+    border-radius: 2%;
+}
+p {
+    font-size: 14px;
+    color: gray;
+    font-family: 'Outfit', sans-serif;
+    margin-left: 49px;
+    
+}
+img{
+    border-radius: 2%;
+    width: 113%;
+    height: 100%;
+    grid-area: img;
+}
+
+
+.text {
+    margin-left: 24px;
+    margin-right: 0px;
+    /* background-color: white; */
+    grid-area: text;
+    display: flex;
+    width: 112%;
+    flex-direction: column;
+    justify-items: stretch;
+    justify-content: space-evenly;
+}
+button {
+    width: 51%;
+    border-radius: 4%;
+    border: thin;
+    height: 10%;
+    letter-spacing: 4px;
+    font-family: 'Fraunces', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    margin-left: 16%;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+}
+button:hover{
+    cursor: pointer;
+    background-color:  hsl(157, 63%, 14%);
+}
+h1{
+    margin-left: 49px;
+    width: 45%;
+    /* height: 20px; */
+    font-family: 'Fraunces', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Outfit', sans-serif;
+}
+span{
+    font-family: 'Fraunces', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Outfit', sans-serif;
+}
+.dashed {
+    text-decoration: line-through;
+    color: gray;
+    font-size: 15px;
+    margin-left: 13px;
+    /* text-align: center;*/
+}
+.real-value{
+    margin-left:49px ;
+    color:  hsl(158, 36%, 37%);
+    font-size: xxx-large;
+}
+.pref{
+    width: 10%;
+    margin-left: 49px;
+    letter-spacing: 6px;
+}
+.main{
+    height: 74px;
+    width: 44%;
+    line-height: 20px;
+
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    background-color: inherit;
+}
